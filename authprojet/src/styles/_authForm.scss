@@ -1,0 +1,46 @@
+.authForm_container_div {
+  margin: 10em auto;
+  width: 50%;
+  max-width: 1000px;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  padding-bottom: 1em;
+  & h2 {
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(175, 172, 172);
+  }
+  .authForm_container_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    font-size: 1.5em;
+    & input {
+      font: inherit;
+      width: 70%;
+      padding: 0.2em 1em;
+      background-color: #906e6e;
+      color: white;
+      border-radius: 15px;
+    }
+  }
+  & button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e43939;
+    padding: 1em;
+    width: 50%;
+    border-radius: 15px;
+    margin: 1em auto;
+    cursor: pointer;
+  }
+  & button:hover {
+    background-color: #d61919;
+    transform: scale(1.02);
+  }
+}
