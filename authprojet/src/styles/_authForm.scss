@@ -28,19 +28,4 @@
       border-radius: 15px;
     }
   }
-  & button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e43939;
-    padding: 1em;
-    width: 50%;
-    border-radius: 15px;
-    margin: 1em auto;
-    cursor: pointer;
-  }
-  & button:hover {
-    background-color: #d61919;
-    transform: scale(1.02);
-  }
 }
