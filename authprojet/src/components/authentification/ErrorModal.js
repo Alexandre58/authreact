@@ -7,16 +7,16 @@ const ErrorModalPourMettreDansLaDivIndexHtmlAuDessusDeRoot = (props) => {
   console.log("****ErrorModal.js====>");
   console.log(props);
   console.log("****ErrorModal.js<====");
+
   return (
     //info:pour fermer la fenetre autre qu'avec le button il y a un conClick sur la backDrop qui est le nom de la props dans authForm
-    <div className="backDrop_modal" onClick={props.onConfirm}>
+    <div className="backDrop_modal" onConfirm={props.onConfirm}>
       <div className="modal_div_container">
         <header className="modal_header_container">
           <p>{props.title}</p>
         </header>
         <section className="modal_section_container">
           <p>{props.message}</p>
-          <p>{props.connerie}</p>
         </section>
 
         <footer className="modal_section_container">
@@ -34,7 +34,6 @@ const ErrorModal = (props) => {
         <ErrorModalPourMettreDansLaDivIndexHtmlAuDessusDeRoot
           title={props.title}
           message={props.message}
-          connerie={props.connerie}
           onConfirm={props.onConfirm}
         />,
         document.getElementById("modal-root")

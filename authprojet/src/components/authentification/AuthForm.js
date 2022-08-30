@@ -9,6 +9,8 @@ const AuthForm = () => {
 
   const emailInputRef = useRef();
   const passwordInputRef = useRef();
+  //encours de chargement(is Loding) creation du state//voir la video 361 pour continuer isLoding
+  const [isLoding, setIsLoding] = useState(false);
   //1 GERER LA MODAL ERRORMODEL AVEC UN USESTATE(affichage de la fenêtre en cas d'erreur)
   const [error, setError] = useState();
   //1 tout dabord controler si error est a true ou a false
@@ -96,9 +98,17 @@ const AuthForm = () => {
         <ErrorModal
           title={error.titleDeSetError}
           message={error.messageDeSetError}
-          connerie="blacblaaaaaaaaaaaaa"
           onConfirm={errorHandler}
         />
+      )}
+
+      {isLoding && (
+        <>
+          <div className="lds-circle">
+            <div></div>
+          </div>
+          <p className="authForm_p_encoursDe">En cours de chargement...</p>
+        </>
       )}
     </section>
   );

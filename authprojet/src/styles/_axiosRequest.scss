@@ -1,0 +1,17 @@
+.axiosRequest_h1 {
+  text-align: center;
+  letter-spacing: 1em;
+  // @include borderRadius;
+  font-size: 5em;
+}
+
+.axiosRequest_section_container {
+  display: flex;
+  row-gap: 1em;
+  column-gap: 1em;
+  flex-wrap: wrap;
+  @include borderRadius;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 3em;
+}

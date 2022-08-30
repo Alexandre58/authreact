@@ -1,0 +1,24 @@
+.card_article_container {
+  // @include border;
+  @include boxShadow;
+  @include borderRadius;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  column-gap: 1em;
+  padding: 0.5em;
+  width: 300px;
+  & ul {
+    @include border;
+    background-color: rgb(72, 50, 50);
+    @include borderRadius;
+  }
+  & li {
+    font: inherit;
+    // @include border;
+    font-size: large;
+    padding: 0.3em;
+    color: white;
+  }
+}

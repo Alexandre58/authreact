@@ -2,7 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border;
+  list-style: none;
+  text-decoration: none;
 }
 body {
   background-color: rgb(230, 227, 227);
+}
+
+@mixin boxShadow {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+@mixin border {
+  border: solid 1px black;
+}
+
+@mixin borderRadius {
+  border-radius: 15px;
 }

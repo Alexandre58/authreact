@@ -1,3 +1,19 @@
+# demarrage
+
+## pour le frontend
+
+cd authprojet puis npm start
+
+## pour le backend
+
+cd backend puis json-server --watch db.json --port 3001 ou bien
+
+cd backend puis npm run server aprés avoir mis ce code de démarrage dans le package.json backend
+
+"scripts": {
+"server": "json-server --watch backend/db.json --port 3001" //note :bien prendre le chemin relatif de db.json
+},
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

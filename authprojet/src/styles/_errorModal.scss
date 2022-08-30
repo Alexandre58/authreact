@@ -1,5 +1,6 @@
 .backDrop_modal {
   position: fixed;
+
   background-color: rgba(0, 0, 0, 0.551);
   top: 0;
   left: 0;
@@ -7,7 +8,7 @@
   height: 100vh;
   .modal_div_container {
     background-color: rgb(90, 88, 88);
-
+    z-index: 10;
     bottom: 200px;
     left: 25%;
     position: fixed;

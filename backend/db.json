@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userId":1,
+      "nom":"Thierry",
+      "prenom":"Alexandre",
+      "title": "json-server de l'id 1",
+      "author": "typicode",
+      "email" :"cherokee.al58@outlook.com",
+      "password":"1234",
+      "photoProfilUrl":"https://avatars.githubusercontent.com/u/79103556?v=4",
+      "biographie":"a completer",
+      "commentaire":"à remplir"
+    },
+    {
+      "id": 2,
+      "userId":2,
+      "nom":"Thierry",
+      "prenom":"Alexandre",
+      "title": "json-server de l'id 1",
+      "author": "typicode",
+      "email" :"cherokee.al58@outlook.com",
+      "password":"1234",
+      "photoProfilUrl":"https://avatars.githubusercontent.com/u/79103556?v=4",
+      "biographie":"a completer",
+      "commentaire":"à remplir"
+    },
+    {
+      "id": 3,
+      "userId":3,
+      "nom":"Thierry",
+      "prenom":"Alexandre",
+      "title": "json-server de l'id 1",
+      "author": "Thierry Alexandre",
+      "email" :"cherokee.al58@outlook.com",
+      "password":"1234",
+      "photoProfilUrl":"https://avatars.githubusercontent.com/u/79103556?v=4",
+      "biographie":"a completer",
+      "commentaire":"à remplir"
+    },
+    {
+      "id": 4,
+      "userId":4,
+      "nom":"Thierry",
+      "prenom":"Alexandre",
+      "title": "json-server de l'id 1",
+      "author": "typicode",
+      "email" :"cherokee.al58@outlook.com",
+      "password":"1234",
+      "photoProfilUrl":"https://avatars.githubusercontent.com/u/79103556?v=4",
+      "biographie":"a completer",
+      "commentaire":"à remplir"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
